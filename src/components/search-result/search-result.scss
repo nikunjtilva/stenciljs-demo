@@ -1,0 +1,29 @@
+search-result{
+    border: 1px solid slategray;
+    display:inline-block;
+    margin:5px;
+    border:none;
+    height: 100px;
+    box-shadow: 0.5px 0.5px 0.5px slategray;
+    &:hover{
+        box-shadow: 1px 1px 1px slategray;
+    }
+    @media screen and (min-width:560px){
+        width:48%;       
+    }
+    @media screen and (max-width:560px){
+        width:100%;       
+    }
+    div{
+        padding:16px;
+        h4{
+            color:gray;
+            margin-top:5px;
+        }
+    }
+    .price{
+        float:right;
+        margin-right:10px;
+        color:#ED4E28;
+    }
+}

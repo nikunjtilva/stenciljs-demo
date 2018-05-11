@@ -1,0 +1,12 @@
+landing-page{
+    search-bar{
+        position:absolute;
+        top:35%;
+        left:calc(50% - 250px);
+    }
+    @media screen and (max-width:560px){
+        search-bar{
+        left:calc(50% - 150px);
+        }
+    }
+}
