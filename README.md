@@ -18,7 +18,7 @@ run `npm run build` command
 
 Above command should build all webcomponents in *dist* folder
 
-###Architectural Overview
+Architectural Overview
 ---
 This solution majorly focus on architecture and less focused on user experience
 
