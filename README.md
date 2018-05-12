@@ -1,4 +1,4 @@
-###How to run
+How to run
 ---
 ###### Install dependencies
 run `npm install` command in project directory
